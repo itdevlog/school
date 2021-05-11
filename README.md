@@ -20,10 +20,10 @@ JSON берется с сайта edu-inform.ekadm.ru
 
 **Библиотеки:** jsoup, json, json-simple, openjfx.
 
-# Скачать Windows
-[Windows](https://drive.google.com/file/d/14SaU9DSvc_zPB7L9dWTJM8y_XEhS26sW/view?usp=sharing)
-# Скачать MacOS
-[Mac OS](https://drive.google.com/drive/folders/1zRcbo3JWJCuBphi7erlbd_iywVng24cX?usp=sharing)
+## Скачать
+
+##### Для [Windows](https://drive.google.com/file/d/14SaU9DSvc_zPB7L9dWTJM8y_XEhS26sW/view?usp=sharing)
+##### Для [Mac OS](https://drive.google.com/file/d/1p81ZaZgKRf-Bg7zTHLg8kZoWYZeD2Fdr/view?usp=sharing)
 ## Лицензия
 
 MIT
