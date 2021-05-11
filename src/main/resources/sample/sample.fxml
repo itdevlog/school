@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="Downloads" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="20.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickSchool" text="Получить информацию и сохранить" textAlignment="CENTER" textFill="#313335" />
+      <Label layoutX="20.0" layoutY="80.0" text="Номер очереди" />
+      <TextField fx:id="EnterNumber" disable="false" layoutX="22.0" layoutY="108.0" prefHeight="27.0" prefWidth="167.0" />
+<!--      <TextField fx:id="EnterNumber" disable="false" layoutX="20.0" layoutY="112.0" prefHeight="27.0" prefWidth="158.0" text="16172353409680000" />-->
+      <TextArea fx:id="DisplayFile" layoutX="311.0" layoutY="9.0" prefHeight="477.0" prefWidth="381.0">
+         <font>
+            <Font size="11.0" />
+         </font></TextArea>
+      <ChoiceBox fx:id="ChoiseSchoolBox" layoutX="22.0" layoutY="42.0" onAction="#checkText" prefHeight="27.0" prefWidth="167.0">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="1 Школа" />
+               <String fx:value="3 Лицей" />
+               <String fx:value="4 Школа" />
+               <String fx:value="5 Гимназия" />
+               <String fx:value="7 Школа" />
+               <String fx:value="8 Гимназия" />
+               <String fx:value="10 Школа" />
+               <String fx:value="11 Школа" />
+               <String fx:value="12 Лицей" />
+               <String fx:value="13 Гимназия" />
+               <String fx:value="14 Школа" />
+               <String fx:value="15 Школа" />
+               <String fx:value="16 Школа" />
+               <String fx:value="17 Школа" />
+               <String fx:value="18 Школа" />
+               <String fx:value="19 Школа" />
+               <String fx:value="20 Школа" />
+               <String fx:value="21 Школа" />
+               <String fx:value="22 Школа" />
+               <String fx:value="23 Школа" />
+               <String fx:value="24 Школа" />
+               <String fx:value="25 Школа" />
+               <String fx:value="26 Школа" />
+               <String fx:value="27 Школа" />
+               <String fx:value="28 Школа" />
+               <String fx:value="30 Школа" />
+               <String fx:value="32 Школа" />
+               <String fx:value="35 Гимназия" />
+               <String fx:value="36 Школа" />
+               <String fx:value="37 Гимназия" />
+               <String fx:value="39 Гимназия" />
+               <String fx:value="40 Гимназия" />
+               <String fx:value="41 Школа" />
+               <String fx:value="43 Школа" />
+               <String fx:value="44 Школа" />
+               <String fx:value="45 Гимназия" />
+               <String fx:value="46 Школа" />
+               <String fx:value="47 Гимназия" />
+               <String fx:value="48 Школа" />
+               <String fx:value="49 Школа" />
+               <String fx:value="50 Школа" />
+               <String fx:value="52 Школа" />
+               <String fx:value="53 Школа" />
+               <String fx:value="55 Школа" />
+               <String fx:value="57 Школа" />
+               <String fx:value="59 Школа" />
+               <String fx:value="60 Школа" />
+               <String fx:value="61 Школа" />
+               <String fx:value="62 Школа" />
+               <String fx:value="63 Школа" />
+               <String fx:value="64 Школа" />
+               <String fx:value="65 Школа" />
+               <String fx:value="66 Школа" />
+               <String fx:value="67 Школа" />
+               <String fx:value="68 Школа" />
+               <String fx:value="69 Школа" />
+               <String fx:value="70 Гимназия" />
+               <String fx:value="71 Школа" />
+               <String fx:value="72 Школа" />
+               <String fx:value="74 Школа" />
+               <String fx:value="75 Школа" />
+               <String fx:value="76 Школа" />
+               <String fx:value="77 Школа" />
+               <String fx:value="79 Школа" />
+               <String fx:value="80 Школа" />
+               <String fx:value="81 Школа" />
+               <String fx:value="82 Школа" />
+               <String fx:value="83 Школа" />
+               <String fx:value="84 Школа" />
+               <String fx:value="85 Школа" />
+               <String fx:value="86 Школа" />
+               <String fx:value="87 Школа" />
+               <String fx:value="88 Лицей" />
+               <String fx:value="91 Школа" />
+               <String fx:value="92 Школа" />
+               <String fx:value="93 Школа" />
+               <String fx:value="94 Гимназия" />
+               <String fx:value="95 Школа" />
+               <String fx:value="96 Школа" />
+               <String fx:value="97 Школа" />
+               <String fx:value="98 Школа" />
+               <String fx:value="100 Лицей" />
+               <String fx:value="102 Школа" />
+               <String fx:value="104 Гимназия" />
+               <String fx:value="105 Школа" />
+               <String fx:value="106 Школа" />
+               <String fx:value="107 Школа" />
+               <String fx:value="108 Гимназия" />
+               <String fx:value="109 Лицей" />
+               <String fx:value="112 Школа" />
+               <String fx:value="113 Школа" />
+               <String fx:value="114 Школа" />
+               <String fx:value="115 Школа" />
+               <String fx:value="116 Гимназия" />
+               <String fx:value="117 Школа" />
+               <String fx:value="119 Школа" />
+               <String fx:value="120 Гимназия" />
+               <String fx:value="121 Школа" />
+               <String fx:value="122 Школа" />
+               <String fx:value="125 Школа" />
+               <String fx:value="127 Школа" />
+               <String fx:value="128 Лицей" />
+               <String fx:value="129 Школа" />
+               <String fx:value="130 Лицей" />
+               <String fx:value="131 Школа" />
+               <String fx:value="132 Школа" />
+               <String fx:value="134 Школа" />
+               <String fx:value="135 Лицей" />
+               <String fx:value="136 Школа" />
+               <String fx:value="137 Школа" />
+               <String fx:value="138 Школа" />
+               <String fx:value="140 Школа" />
+               <String fx:value="141 Школа" />
+               <String fx:value="142 Школа" />
+               <String fx:value="143 Школа" />
+               <String fx:value="144 Гимназия" />
+               <String fx:value="145 Школа" />
+               <String fx:value="146 Школа" />
+               <String fx:value="147 Школа" />
+               <String fx:value="148 Школа" />
+               <String fx:value="149 Школа" />
+               <String fx:value="150 Школа" />
+               <String fx:value="151 Школа" />
+               <String fx:value="154 Школа" />
+               <String fx:value="155 Гимназия" />
+               <String fx:value="156 Школа" />
+               <String fx:value="157 Школа" />
+               <String fx:value="159 лицей" />
+               <String fx:value="161 Гимназия" />
+               <String fx:value="163 Школа" />
+               <String fx:value="164 Школа" />
+               <String fx:value="165 Школа" />
+               <String fx:value="166 Школа" />
+               <String fx:value="167 Школа" />
+               <String fx:value="168 Школа" />
+               <String fx:value="170 Школа" />
+               <String fx:value="171 Школа" />
+               <String fx:value="173 Лицей" />
+               <String fx:value="174 Гимназия" />
+               <String fx:value="175 Школа" />
+               <String fx:value="176 Гимназия" />
+               <String fx:value="177 Гимназия" />
+               <String fx:value="178 Школа" />
+               <String fx:value="179 Школа" />
+               <String fx:value="180 Лицей" />
+               <String fx:value="181 Школа" />
+               <String fx:value="183 Школа" />
+               <String fx:value="184 Школа" />
+               <String fx:value="197 Школа" />
+               <String fx:value="200 Школа" />
+               <String fx:value="205 Гимназия" />
+               <String fx:value="208 Школа" />
+               <String fx:value="210 Гимназия" />
+               <String fx:value="215 Школа" />
+               <String fx:value="221 Школа" />
+               <String fx:value="Арт-Этюд Гимназия" />
+               <String fx:value="Гелиос Школа" />
+            </FXCollections>
+         </items>
+      </ChoiceBox>
+      <Label layoutX="25.0" layoutY="14.0" text="Выберите школу" />
+      <Button fx:id="GetConfig" layoutX="23.0" layoutY="353.0" mnemonicParsing="false" onAction="#getSettirg" text="Загрузить сохраненные настройки" />
+      <Separator layoutX="14.0" layoutY="231.0" prefHeight="17.0" prefWidth="287.0" />
+      <Label layoutX="21.0" layoutY="281.0" text="Школа" />
+      <Label layoutX="20.0" layoutY="315.0" text="Номер очереди" />
+      <Label fx:id="schoolConfig" layoutX="150.0" layoutY="281.0" text="" />
+      <Label fx:id="numberConfig" layoutX="150.0" layoutY="315.0" text="" />
+   </children>
+</AnchorPane>
