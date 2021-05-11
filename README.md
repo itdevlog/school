@@ -4,7 +4,7 @@
 
 JSON берется с сайта edu-inform.ekadm.ru
 
-**Исользовались технологии:** Java 8, Maven.
+**Исользовались технологии:** Java 8, JavaFX, Maven.
 
 **Библиотеки:** jsoup, json, json-simple, openjfx.
 
