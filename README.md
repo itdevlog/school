@@ -6,8 +6,9 @@ JSON берется с сайта edu-inform.ekadm.ru
 - Получить информацию о  номере очереди
 - Изменение очереди
 - Сохранение настроек
-  ![](https://raw.githubusercontent.com/school/school/main/12.jpg)
-  ![](https://raw.githubusercontent.com/vasmanz/vasmanz/main/13.jpg)
+  <img width="964" height="760" alt="12" src="https://github.com/user-attachments/assets/dd890a03-56ab-46b5-81ff-989a07895f95" />
+  <img width="964" height="760" alt="13" src="https://github.com/user-attachments/assets/d5b917fc-cec9-4793-b893-aef0afe8bdfe" />
+
 ## Файлы в проекте
 
 - itog.txt - данные о номере очереди
