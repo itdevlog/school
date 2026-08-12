@@ -6,7 +6,7 @@ JSON берется с сайта edu-inform.ekadm.ru
 - Получить информацию о  номере очереди
 - Изменение очереди
 - Сохранение настроек
-  ![](https://raw.githubusercontent.com/vasmanz/vasmanz/main/12.jpg)
+  ![](https://raw.githubusercontent.com/school/school/main/12.jpg)
   ![](https://raw.githubusercontent.com/vasmanz/vasmanz/main/13.jpg)
 ## Файлы в проекте
 
